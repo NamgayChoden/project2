@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+  <title>Document</title>
+    <link rel="stylesheet"  type="text/css"  href="style.css">
+</head>
+<div>  
+    <!--Tabs and Pills  -->
+  <div class="container">
+    <ul class="list-inline">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Menu 1</a></li>
+      <li><a href="#">Menu 2</a></li>
+      <li><a href="#">Menu 3</a></li>
+    </ul>
+  </div>
+<!-- Button -->
+<button type="button" class="btn btn-success">about us</button>
+<button type="button" class="btn btn-info">Information</button>
+<button type="button" class="btn btn-warning">application</button>
+<button type="button" class="btn btn-danger">subscribe <span class="badge">5</span></button>
+
+<!-- Glyphicon -->
+  
+<button type="button" class="btn btn-info">
+  <span class="glyphicon glyphicon-search"></span> Search
+</button>
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+    News and Updates
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Local News</a></li>
+    <li><a class="dropdown-item" href="#">National News</a></li>
+    <li><a class="dropdown-item" href="#">International News</a></li>
+  </ul>
+</div>
+                                            
+  
+    <!-- grid -->
+<div class="fluid mt-3">
+    <div class="row">
+      <div class="col p-3 bg-primary text-white"><h1>Bhutan</h1></div>
+      <div class="col p-3 bg-dark text-white"><li>Capital: Thimphu</li> <li> Area: 38,394 km²</li> <li> Population: 779,900 (2021)</li>
+       <li>  World Bank
+        King: Jigme Khesar Namgyel Wangchuck</li>
+      <li> Currencies: Bhutanese ngultrum, Indian rupee</li>
+       
+        <li>Official language: Dzongkha</li></div>
+      <!-- <div class="col p-3 bg-primary text-white">.col</div> -->
+      
+  <!--Panel  -->
+    <div class="panel panel-default">
+      <div class="panel-body">Bhutan, a Buddhist kingdom on the Himalayas’ eastern edge, is known for its monasteries, fortresses (or dzongs) and dramatic landscapes that range from subtropical plains to steep mountains and valleys. In the High Himalayas, peaks such as 7,326m Jomolhari are popular trekking destinations. Paro Taktsang monastery (also known as Tiger’s Nest) clings to cliffs above the forested Paro Valley. </div>
+    </div>
+    </div>
+
+    <div class="flex-wrapper" style="width: ;20px"> 
+        
+        <!-- Left column with the profile image and name -->
+        <div class="flex-item left-col">
+            <div class="profile-img-container">
+			 <img src="image\jj.jpg" />   
+            </div>
+
+            <div class="info-container">
+				<h2>Namgay Choden</h2>   
+				 <h4> A Learner</h4>  
+				<h3 id="location">Wangdue, Bhutan</h3>   
+				<ul>
+					<li>Followers:<span>10</span></li>   
+					<li>Following:<span>20</span></li> 
+					 <li>Total Identified:<span>100</span></li>  
+				</ul>   
+            </div>
+             <!--Collapsible  -->
+  <div class="mt-3">
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Click Here to Know more about me</button>
+    <div id="demo" class="collapse">
+      <ul>
+     <li>Age: 20years</li>
+     <li>Village: Zhemgang, Pangbang</li>
+     <li>BloodGroup: A+</li>
+    </ul>
+    </div>
+  </div>
+        </div>
+
+        <!-- Right column with the image gallery -->
+        <div class="flex-item right-col">
+			<h2 id="bio-heading"> who am i?</h2>   
+			<p>Hello!I am Namgay Choden. i am from Zhemgang but born and raise at Wangdue.I am learning web development right now at Younphula DSP center. </p>   
+
+			<h2 id="gallery-heading">Favorites Identified</h2>   
+
+            <!-- Image gallery -->
+            <div class="gallery-wrapper">
+                <div class="gallery-item">
+					<img src="https://i.pinimg.com/736x/25/30/39/2530393555074efe5e2b97c2150b5afd.jpg" />  
+					<h4>Dog</h4>  
+                </div>
+
+                <div class="gallery-item">
+					<img src="https://wallpaperaccess.com/full/2443819.jpg" />  
+					 <h4>Flowers</h4> 
+                </div>
+
+                <div class="gallery-item">
+					<img src="https://i.pinimg.com/736x/d9/e7/8d/d9e78db42f92e9cdbf3a893c7cf0ed65.jpg" />  
+					 <h4>cat</h4> 
+                </div>
+                <div class="gallery-item">
+                    <img src="https://i.pinimg.com/736x/1e/ae/a8/1eaea83b2a4e6f3e04663cbe4032d38b.jpg" />
+           <h4>Books</h4>     
+               </div>
+                
+                <div class="gallery-item">
+                    <img src="https://i.pinimg.com/originals/3c/e9/e5/3ce9e56ed3e6c44903af25f04235925c.jpg" />
+                    <h4>Music</h4>
+               </div>
+               <div class="gallery-item">
+                <img src="https://i.pinimg.com/236x/1a/b1/a7/1ab1a7a04d03d592ec7a18899270ff59.jpg" />
+                   <h4>Rose</h4>
+                </div>
+                
+                <div class="gallery-item">
+                 <img src="https://wallpapercave.com/wp/wp5220994.jpg" />
+                <h4>sunset</h4>
+                </div>
+               <div class="gallery-item">
+                <img src="https://beautifuldawndesigns.net/wp-content/uploads/2021/10/aesthetic-drawings15.jpg" />
+                <h4>Art</h4>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pbs.twimg.com/media/EUmk0liWoAA4llW.jpg" />
+                <h4>Rainbow</h4>
+                    </div> 
+            </div>
+        </div>
+
+    <!-- Closing tag for entire flexbox wrapper -->
+    </div>
+
+
+
+</div>
+<!-- table -->
+<div class="container mt-3">
+    <h2>Table</h2>    
+    <table class="table table-dark table-hover">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Zodiac sign</th>
+          <th>email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Namgay Choden</td>
+          <td>Pisces</td>
+          <td>namgayc7@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Jordhen</td>
+          <td>Aquarius</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>lhamo</td>
+          <td>Capricorn</td>
+          <td>lhamo@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="container carousel-inner">
+    <div class="carousel-item active">
+      <img src="image\best-time-to-visit-in-bhutan-main-post.jpg" alt="punakha" class="d-block" style="width:70%">
+    </div>
+    <div class="carousel-item">
+      <img src="image\bhutan-gangtay-valley-tour.jpg" alt="chimi Lhakhang" class="d-block" style="width:70%">
+    </div>
+    <div class="carousel-item">
+      <img src="image\Tigers-Nest-Bhutan.jpg" alt="Paro Taktsang" class="d-block" style="width:70%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="fluid mt-3">
+  <h3>The Best View of Bhutan</h3>
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#section1">Punakha</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">ChimiLhakhang</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3">Paro Taktsang</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="section1" class="fluid bg-success text-white" style="padding:100px 20px;">
+  <h1>Punakha </h1>
+  <p>(Dzongkha: སྤུ་ན་ཁ་) is the administrative centre of Punakha dzongkhag, one of the 20 districts of Bhutan. Punakha was the capital of Bhutan and the seat of government until 1955, when the capital was moved to Thimphu. It is about 72 km away from Thimphu, and it takes about 3 hours by car from the capital, Thimphu. Unlike Thimphu, it is quite warm in winter and hot in summer. It is located at an elevation of 1,200 metres above sea level, and rice is grown as the main crop along the river valleys of two main rivers of Bhutan, the Pho Chu and Mo Chu. Dzongkha is widely spoken in this district.</p>
+  <p>In 1907, Punakha Dzong was the site of the coronation of Ugyen Wangchuck as the first King of Bhutan. Three years later, a treaty was signed at Punakha whereby the British agreed not to interfere in Bhutanese internal affairs and Bhutan allowed Britain to direct its foreign affairs.</p>
+</div>
+
+<div id="section2" class="fluid bg-warning" style="padding:100px 20px;">
+  <h1>Chimi Lhakang</h1>
+  <p>Chimi Lhakhang, also known as Chime Lhakhang or Monastery or temple, is a Buddhist monastery in Punakha District, Bhutan.[1] Located near Lobesa, it stands on a round hillock and was built in 1499 by the 14th Drukpa hierarch, Ngawang Choegyel, after the site was blessed by the "Divine Madman" the maverick saint Drukpa Kunley (1455–1529) who built a chorten on the site.</p>
+  <p>In founding the site it is said that Lama Kunley subdued a demon of Dochu La with his “magic thunderbolt of wisdom” and trapped it in a rock at the location close to where the chorten now stands. He was known as the "Mad Saint" or “Divine Madman” for his unorthodox ways of teaching Buddhism by singing, humour and outrageous behaviour, which amounted to being bizarre, shocking and with sexual overtones.</p>
+</div>
+
+<div id="section3" class="fluid bg-secondary text-white" style="padding:100px 20px;">
+  <h1>Paro Taktasng</h1>
+  <p>(Dzongkha: སྤ་གྲོ་སྟག་ཚང་, also known as the Taktsang Palphug Monastery and the Tiger's Nest),[1] is a sacred Vajrayana Himalayan Buddhist site located in the cliffside of the upper Paro valley in Bhutan. It is one of thirteen Tiger's Nest caves in historical Tibet in which Padmasambhava practiced and taught Vajrayana</p>
+  <p>A later monastery complex was built in 1692, around the Taktsang Senge Samdup cave, where Guru Padmasambhava meditated and practiced with students including Yeshe Tsogyal before departing the kingdom of Tibet in the early 9th century.[2][3] Padmasambhava is credited with introducing Vajrayana Buddhism to Bhutan, which was then part of Tibet, and is the tutelary deity of the country.</p>
+</div>
+  
+  <div class="mt-3">
+    <h2>Bhutan</h2>
+    <div class="mt-4 p-5 bg-primary text-white rounded">
+      <p>Bhutan, a Buddhist kingdom on the Himalayas’ eastern edge, is known for its monasteries, fortresses (or dzongs) and dramatic landscapes that range from subtropical plains to steep mountains and valleys. In the High Himalayas, peaks such as 7,326m Jomolhari are popular trekking destinations. Paro Taktsang monastery (also known as Tiger’s Nest) clings to cliffs above the forested Paro Valley.</p> 
+       <!--Progress Bar  -->
+
+    <div class="progress">
+      <div class="progress-bar" style="width:70%">70%</div>
+    </div>
+      <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+ Brief Background History of Bhuatn
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title" style="color:black ;">History</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Bhutan's early history is steeped in mythology and remains obscure. Some of the structures provide evidence that the region has been settled as early as 2000 BC. According to a legend it was ruled by a Cooch-Behar king, Sangaldip, around the 7th century BC,[1] but not much is known prior to the introduction of Tibetan Buddhism in the 9th century, when turmoil in Tibet forced many monks to flee to Bhutan. In the 12th century, the Drukpa Kagyupa school was established and remains the dominant form of Buddhism in Bhutan today. The country's political history is intimately tied to its religious history and relations among the various monastic schools and monasteries.[2]
+
+Bhutan is one of only a few countries which has been independent throughout its history, never conquered, occupied, or governed by an outside power (notwithstanding occasional nominal tributary status). From the time historical records are clear, Bhutan has continuously and successfully defended its sovereignty.[3]
+
+The consolidation of Bhutan occurred in 1616 when Ngawanag Namgyal, a lama from western Tibet known as the Zhabdrung Rinpoche, defeated three Tibetan invasions, subjugated rival religious schools, codified the Tsa Yig, an intricate and comprehensive system of law, and established himself as ruler over a system of ecclesiastical and civil administrators. After his death, infighting and civil war eroded the power of the Zhabdrung for the next 200 years. In 1885 Ugyen Wangchuck was able to consolidate power, and began cultivating closer ties with the British in the subcontinent.[2]
+
+In 1907, Ugyen Wangchuck was elected as the hereditary ruler of Bhutan, crowned on 17 December 1907, and installed as the head of state, the Druk Gyalpo (Dragon King). In 1910, King Ugyen and the British signed the Treaty of Punakha which provided that British India would not interfere in the internal affairs of Bhutan if the country accepted external advice in its external relations. When Ugyen Wangchuck died in 1926, his son Jigme Wangchuck became the ruler, and when India gained independence in 1947, the new Indian Government recognized Bhutan as an independent country. In 1949, India and Bhutan signed the Treaty of Peace and Friendship, which provided that India would not interfere in Bhutan's internal affairs, but would guide its foreign policy. Succeeded in 1952 by his son Jigme Dorji Wangchuck, Bhutan began to slowly emerge from its isolation and began a program of planned development. The National Assembly of Bhutan, the Royal Bhutanese Army, and the Royal Court of Justice were established, along with a new code of law.[2] Bhutan became a member of the United Nations in 1971.
+
+In 1972, Jigme Singye Wangchuck ascended the throne at age 16. He emphasized modern education, decentralization of governance, the development of hydroelectricity and tourism and improvements in rural developments. He was perhaps best known internationally for his overarching development philosophy of "gross national happiness." It recognizes that there are many dimensions to development and that economic goals alone are not sufficient. Satisfied with Bhutan's transitioning democratization process, he abdicated in December 2006 rather than wait until the promulgation of the new constitution in 2008. His son, Jigme Khesar Namgyel Wangchuck, became King upon his abdication.[2]
+
+
+Contents
+1	Origins and early settlement, 600–1600
+1.1	Arrival of Buddhism
+1.2	Sectarian rivalry
+2	Theocratic government, 1616–1907
+2.1	Consolidation and defeat of Tibetan invasions, 1616–51
+2.2	Administrative integration and conflict with Tibet, 1651–1728
+2.2.1	Bhutan exclaves in western Tibet
+2.3	Civil conflict, 1728–72
+2.4	British intrusion, 1772–1907
+3	Establishment of the hereditary monarchy, 1907
+4	Development of centralized government, 1926–52
+5	Modernization under Jigme Dorji, 1952–72
+6	International relations, 1972–present
+6.1	Assamese separatists
+6.2	Military action against Assamese separatists December 2003
+6.3	Refugee community
+7	Formalized democracy
+7.1	Constitution
+7.2	Jigme Khesar Namgyel Wangchuck
+8	See also
+9	References
+9.1	Bibliography
+10	Further reading
+11	External links
+Origins and early settlement, 600–1600
+
+This section possibly contains original research. Please improve it by verifying the claims made and adding inline citations. Statements consisting only of original research should be removed. (August 2022) (Learn how and when to remove this template message)
+A state of Lhomon (literally, southern darkness) or Monyul (dark land, a reference to the Monpa, one of the Tibeto-Burman peoples of Bhutan), possibly a part of Tibet that was then beyond the pale of Buddhist teachings. Monyul is thought to have existed between AD 100 and AD 600. The names Lhomon Tsendenjong (southern Mon sandalwood country) and Lhomon Khashi (southern Mon country of four approaches), found in ancient Bhutanese and Tibetan chronicles, may also have credence and have been used by some Bhutanese scholars when referring to their homeland. Variations of the Sanskrit words Bhota-ant (end of Bhot) or Bhu-uttan (meaning highlands) have been suggested by historians as origins of the name Bhutan, which came into common foreign use in the late 19th century and is used in Bhutan only in English-language official correspondence. The traditional name of the country since the 17th century has been Drukyul—country of the Drukpa, the Dragon people, or the Land of the Thunder Dragon, a reference to the country's dominant Buddhist sect.[4]
+
+Some scholars believe that during the early historical period the inhabitants were fierce mountain aborigines, the Monpa, who were of neither the Tibetan or Mongol stock that later overran northern Bhutan. The people of Monyul practiced a shamanistic religion, which emphasized worship of nature and the existence of good and evil spirits. During the latter part of this period, historical legends relate that the mighty king of Monyul invaded a southern region known as the Duars, subduing the regions of modern Assam, West Bengal, and Bihar in India.[4]
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+    </div>
+     <!--List Group  -->
+
+     <ul class="list-group">
+      <li class="list-group-item">GNH coutnry</li>
+      <li class="list-group-item">Reglious Country</li>
+      <li class="list-group-item">Carbonate</li>
+    </ul>
+  </div>
+<!-- well -->
+  <div class="nc1">
+    <h2>Quotes for the day</h2>
+    <div class="well">The way I see it, if you want the rainbow, you gotta put up with the rain. Dolly Parton
+
+    </div>
+  </div>
+
+<!-- Alerts -->
+  <div class="mt-3">
+    <h2>happiness</h2>
+   
+    <div class="alert alert-success">
+      <strong>Compassion!</strong> compassion implies pity coupled with an urgent desire to aid or to spare. treats the homeless with great compassion. commiseration suggests pity expressed ...
+    </div>
+    <div class="alert alert-info">
+      <strong>Wisdom!</strong> Wisdom, sapience, or sagacity is the ability to contemplate and act using knowledge, experience, understanding, common sense and insight.
+    </div>
+  </div>
+
+  <!-- Media Objects -->
+  <div class="okay">
+    <h2>ABout Members</h2>
+    <p>a constituent piece of a complex structure, especially a component of a load-bearing structure.
+      "the main member that joins the front and rear axles"</p><br>
+    
+    <!-- Left-aligned media object -->
+    <div class="media">
+      <div class="media-left">
+        <img src="image\IMG_20210718_093030_803.jpg" class="media-object" style="width:60px">
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Namgay Choden</h4>
+        <p>A coder is a professional who uses programming languages to communicate with computers and software and make them perform certain tasks. Computers use machine code to process information. Coders write in programming languages that a computer can convert into machine language to follow a code's instructions</p>
+      </div>
+    </div>
+    <hr>
+    
+    <!-- Right-aligned media object -->
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading">Choden Namgay</h4>
+        <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art. The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.</p>
+      </div>
+      <div class="media-right">
+        <img src="image\IMG_20211027_220031_822.jpg" class="media-object" style="width:60px">
+      </div>
+    </div>
+  </div>
+  <!-- Scrollspy -->
+
+  <!-- data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50"> -->
+
+
+
+
+
+ 
+
+ 
+  <!-- Forms -->
+  <div class="container">
+    <h2>Information</h2>
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="form-group form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <!-- Pager -->
+  <div class="nc3">                 
+    <ul class="pager">
+      <li><a href="#">Previous</a></li>
+      <li><a href="#">Next</a></li>
+    </ul>
+  </div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
